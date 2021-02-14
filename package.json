@@ -1,0 +1,31 @@
+{
+  "name": "aws-ses-cdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DopamineDriven/aws-ses-cdk.git",
+  "author": "Andrew Ross <andrew.simpson.ross@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "hello-cdk": "bin/hello-cdk.js"
+  },
+  "scripts": {
+    "cdk": "cdk",
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3": "^1.89.0",
+    "@aws-cdk/aws-ses": "^1.89.0",
+    "@aws-cdk/aws-ses-actions": "^1.89.0",
+    "@aws-cdk/aws-sns": "^1.89.0",
+    "@aws-cdk/core": "^1.89.0",
+    "aws-sdk": "^2.843.0",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "aws-cdk": "^1.89.0"
+  }
+}
