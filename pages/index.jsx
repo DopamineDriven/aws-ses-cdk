@@ -6,6 +6,12 @@ export default function Upload() {
       const { url, fields } = await res.json();
       const formData = new FormData();
   
+
+    /*
+        interface PropertyDescriptorMap {
+            [s: string]: PropertyDescriptor;
+        }
+    */
       Object.entries({ ...fields, file }).forEach(([key, value]) => {
         formData.append(key, value);
       });
